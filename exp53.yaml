@@ -1,0 +1,11 @@
+# 18_3_Volumn3: bi-LSTM
+GPUS: '1'  # 末尾无逗号
+
+INPUT:
+  SEQ_LEN: 20
+  BASE_INPUT_PATH: '/home/poac/lyx/Project/ECA-LSTM/18_3_Volumn3'
+TRAIN:
+  DECAY_STEP: 1000
+  LEARNING_RATE_BASE: 0.01
+OUTPUT:
+  VALID_SAVE_INTERVAL: 1000

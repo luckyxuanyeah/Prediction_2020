@@ -1,0 +1,7 @@
+# 训练预测model
+GPUS: '2'  # 末尾无逗号
+
+
+INPUT:
+  # BASE_INPUT_PATH: '/home/poac/lyx/Project/ECA-LSTM/testdata'  # 输入数据的路径
+  BASE_INPUT_PATH: '/home/poac/lyx/Project/ECA-LSTM/train_test'  # 输入数据的路径
